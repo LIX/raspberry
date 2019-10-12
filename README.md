@@ -14,3 +14,5 @@ auto wlan0
 iface wlan0 inet dhcp  
 pre-up wpa_supplicant -B w -D wext -i wlan0 -c /etc/wpa_supplicant/wpa_supplicant.conf  
 post-down killall -q wpa_supplicant
+
+https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
